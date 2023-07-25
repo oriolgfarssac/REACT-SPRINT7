@@ -10,7 +10,7 @@ align-items: center;
 `;
 
 const DivCheck2 = styled.div`
-width: 300px;
+width: 350px;
 height: auto;
 display: flex;
 flex-direction: column;
