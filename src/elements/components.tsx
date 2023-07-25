@@ -16,6 +16,7 @@ interface ButtonProps{
     id: string;
 }
 
+
 const CheckBox: React.FC<CheckBoxProps> = (props) => <input type={props.type}  checked={props.checked} onChange={props.change}></input>
 
 const TextCheck: React.FC<TextProps> = (props) => <h5>{props.content}</h5>
