@@ -29,10 +29,6 @@
       check();
     }, []);
 
-    
-
-    const mymodal2Value = window.mymodal2!;
-
     useEffect(() => {
       saveData();
       calculateTotalPrice();
