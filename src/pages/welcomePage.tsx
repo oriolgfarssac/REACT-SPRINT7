@@ -3,16 +3,14 @@ import '../App.css'
 
 function WelcomePage() {
   return (
-    <>
-    <div className="divWelcome">
-    <h1> Hola! I benvingut a quoteApp! </h1>
-    <h3> In this webApp you'll be able to make a quote on the services you require. </h3>
 
-<Link to='/' className="link"><u>Home</u></Link>
-<Link to='/quotePage' className="link"><u>Quote Page</u></Link>
+    <div className="divWelcome">
+    <h1> Hi! & Welcome to Quote! </h1>
+    <h3> On this website, you'll be able to create one or more budgets with the services you need! </h3>
+    <br />
+    <Link to='/quotePage' className="boto1"> Make Budget </Link>
 
     </div>
-    </>
   );
 }
 

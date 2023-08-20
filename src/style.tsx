@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const DivCheck = styled.div`
-z-index: 1;
 width: 100%;
 height: 40px;
 display: flex;
@@ -17,10 +16,11 @@ height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
+text-align: center;
 align-items: center;
-background-color: #343434;
-border: solid 4px #434343;
 border-radius: 10px;
+color: black;
+font-weight: bolder;
 `;
 
 const Price = styled.h4`
